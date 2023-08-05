@@ -4,7 +4,7 @@ const { useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, Brow
 const { checkPath } = require('../utils/check.js')
 const P = require('pino')
 const fs = require('fs')
-
+const path = require('path');
 const globalVars = require('../globalVars.js');
 const authorization = [
     '86 9904-3412',
@@ -20,7 +20,6 @@ const numbers = [
     '86 9900-7933',
     '86 9910-1695',
     '86 8144-8840',
-
 ]
 class Baileys {
     constructor(name, id) {
