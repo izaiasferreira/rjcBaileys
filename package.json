@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node app.js --cluster",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "file-type": "^18.5.0",
+    "mime": "^3.0.0",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.6.1"
+  }
+}
